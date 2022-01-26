@@ -79,8 +79,8 @@ class Content:
 
                         st.write('---')
 
-            except Exception as e:
-                st.warning(e)
+            except:
+                st.warning('Incorrect Input!')
 
 
 
