@@ -1,6 +1,9 @@
 from pyparsing import Word
 import streamlit as st
+import nltk
 from nltk.corpus import wordnet
+
+nltk.download('wordnet')
 
 st.set_page_config(
     page_title='Dictionary',
