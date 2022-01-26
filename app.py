@@ -38,7 +38,7 @@ class Content:
                             'v':'Verb',
                             'a':'Adjective',
                             'r':'Adverb',
-                            's':'Singular'
+                            's':'Adjective Satellite'
                         }
                         try:
                             st.write(f'_{syntax[syn.pos()]}_')
